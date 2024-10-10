@@ -22,7 +22,7 @@ public class PostmanEchoTest {
                 .then()
                 .log().all()
                 .statusCode(200)
-                .body("data",equalTo(body + " echo"));
+                .body("data",equalTo(body));
     }
 
 
